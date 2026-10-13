@@ -8,8 +8,8 @@ import torch
 import pandas as pd
 
 
-disease_info = pd.read_csv('Flask Deployed App/disease_info.csv', encoding='cp1252')
-supplement_info = pd.read_csv('Flask Deployed App/supplement_info.csv', encoding='cp1252')
+disease_info = pd.read_csv('disease_info.csv', encoding='cp1252')
+supplement_info = pd.read_csv('supplement_info.csv', encoding='cp1252')
 
 
 # Use CPU for consistent, portable inference
