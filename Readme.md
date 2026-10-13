@@ -70,8 +70,7 @@ CropDiseaseDetection/
 ├── CNN.py
 │   └── CNN architecture
 │
-├── plant_disease_model_1_latest.pt
-│   └── Trained model weights
+├── plant_disease_model_1_latest.pt  # Download separately from GitHub Releases
 │
 ├── test_images/
 │   └── Sample images for testing predictions
@@ -104,11 +103,11 @@ Make sure you have the following installed:
 - Git (optional, for cloning the repository)
 
 
-###Pretrained Model
+### Pretrained Model
 
-The trained CNN model checkpoint is available in the GitHub Releases.
+The trained CNN model checkpoint is available in the [GitHub Releases](https://github.com/09022004/CropDiseaseDetection/releases/tag/v1.0.0).
 
-Download plant_disease_model_1_latest.pt and place it in the project root directory before running the application.
+Download plant_disease_model_1_latest.pt and place it in the project root directory, alongside app.py and CNN.py, before running the application.
 
 
 ### 1. Clone the repository
