@@ -94,6 +94,7 @@ CropDiseaseDetection/
 
 Follow these steps to run the application locally.
 
+
 ### Prerequisites
 
 Make sure you have the following installed:
@@ -101,6 +102,14 @@ Make sure you have the following installed:
 - Python
 - pip
 - Git (optional, for cloning the repository)
+
+
+###Pretrained Model
+
+The trained CNN model checkpoint is available in the GitHub Releases.
+
+Download plant_disease_model_1_latest.pt and place it in the project root directory before running the application.
+
 
 ### 1. Clone the repository
 
