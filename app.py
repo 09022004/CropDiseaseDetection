@@ -51,6 +51,8 @@ def prediction(image_path):
 
 app = Flask(__name__)
 
+os.makedirs('static/uploads', exist_ok=True)
+
 @app.route('/')
 def home_page():
     return render_template('home.html')
